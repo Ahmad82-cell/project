@@ -1,0 +1,93 @@
+
+/* start nav */
+.navbar{
+    background-image: linear-gradient(to right,#3d17ba,#175d82);
+
+    
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+/* End nav */
+/* start banner */
+.banner{
+    background-image: linear-gradient(to right,#3d17ba,#175d82);
+    color: #fff;
+    padding-top: 5%;
+}
+.bottom-img{
+    width: 100%;
+}
+/* end banner */
+.main-title{
+    display: flex;
+    justify-content: center;
+
+}
+.main-title::after{
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color: #3d17ba;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    ;
+}
+
+.CHOOSE{
+    background:#f8f9fa ;
+}
+.all::after{
+    content: "";
+    width: 2px;
+    height: 100px;
+    background-color: #3d17ba;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.img-user img{
+    width: 10%;
+    border-radius: 50%;
+
+}
+#testimonals{
+    margin:100px 0;
+}
+.testimonals{
+    border-left: 4px solid #3d17ba;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.testimonals img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-data{
+    display: inline-block;
+    font-size: 12px;
+}
+.soclial-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.soclial-icons a:hover img{
+transform: translateY(-10px);
+}
+/* start footer */
+.footer{
+    background-image: linear-gradient(to right,#3d17ba,#175d82);
+    color: #fff;
+}
+.footer-img {
+    width: 100%;
+}
+/* End footer */
